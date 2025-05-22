@@ -1,0 +1,106 @@
+
+
+Accion numero uno para que funcione el script 
+
+objetivo del proyecto :
+generar un iforme que corrobore como es la documentacion de mi proyecto y de esa manera poder certificar mis
+habilidades en la documentacion , pilar importante de la informatica
+ahora bien , 
+
+TRABAJO DE INVESTIGACION PERSONAL 1
+nombre : josue luengo 
+alias : fix3r
+
+fecha : 16.05.2025
+hora de inicio :20:50
+
+Introdccion y Desarrollo
+
+los alcances de este informe , prento resolver una problematicade tipo simple 
+la optimizacion de un sistema operativos como windows, El mas utilizado a nivel global 
+Es un script que busca optimizar y mejorar el rendimiento de la omputadora de una manera efectiva 
+mediante configuraciones dentro del mismo sistema 
+
+toda la informacion relacionada a esta investigacion|practica esta basada en fuentes como las inteligencias artificiales 
+deepseek y chatbot Open AI
+
+PROCEDIMIENTOS .......................................................................................................
+......................................................................................................................
+
+tengo que desactivar la proteccion contra el uso no autorizado de scrips . 
+Para esto debo de ejecutar el powershell como administrador 
+
+
+(se requiere cuenta de administrador por lo tanto asumiendo que somos administrador )
+ejecutamos 
+
+en CDM (simbolo del sistema )
+
+	C:\Users\PC>powershell -Command "Start-Process powershell -Verb RunAs"
+
+
+Ahora para desactivar la proteccion 
+de la ejecucion de Scripts 
+
+///////////RemoteSigned es una política de ejecución en PowerShell que controla qué scripts se pueden ejecutar. Aquí lo explico fácil:
+
+///////////🔹 ¿Qué hace RemoteSigned?
+///////////✅ Permite scripts creados en tu PC (locales) sin restricciones.
+
+///////////✅ Bloquea scripts descargados de Internet (o correos/USB) a menos que estén firmados digitalmente por un editor confiable.
+
+///////////🔹 Ejemplo:
+///////////Si creas un script mi_script.ps1 en tu PC → se ejecuta sin problemas.
+
+///////////Si descargas script_de_internet.ps1 → PowerShell lo bloqueará a menos que tenga firma digital.
+
+///////////🔹 ¿Para qué sirve?
+///////////Equilibrio entre seguridad y flexibilidad:
+
+///////////Te protege de scripts maliciosos de Internet.
+
+///////////Te deja usar tus propios scripts libremente.
+
+///////////🔹 Alternativas comunes:
+///////////Política	Descripción
+///////////Restricted	(Predeterminada) Bloquea TODOS los scripts.
+///////////AllSigned	Todos los scripts (locales y remotos) deben estar firmados.
+///////////Unrestricted	Permite todo (peligroso, no recomendado).
+///////////🔹 Cómo ver tu política actual:
+///////////powershell
+///////////Get-ExecutionPolicy
+///////////🔹 Recomendación:
+///////////Usa RemoteSigned si trabajas con scripts propios y ocasionalmente con scripts externos verificados.
+
+
+
+para poder ver las politicas de creacion y ejecucion de Scripts 
+uso : 
+	Get-ExecutionPolicy
+
+
+
+...................
+
+2 Ejecuto la busqueda de la ruta del archivo con la terminacion ".ps1"
+
+nota : el archivo debe estar guardado en primera instancia con la terminacion .ps1 y NO como archivo.txt
+
+ahora uso comandos como 
+
+	PS C:\Windows\system32> cd C:\Users\PC\Desktop\
+	PS C:\Users\PC\Desktop> cd '.\carpeta temporal\'
+	PS C:\Users\PC\Desktop\carpeta temporal> ls
+
+.............................
+
+3 ahora ejecuto el Script por medio de la power shell con el comando 
+de ejemplo  "   .\tuscript.ps1  "
+
+en este caso :  .\ejecutableHerramienta.ps1
+
+
+
+EL OBJETIVO SE LOGRO CON EXITO : 
+22:07 hora alcanzada
+

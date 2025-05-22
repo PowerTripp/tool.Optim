@@ -1,0 +1,88 @@
+INFORME TÉCNICO: CERTIFICACIÓN DE HABILIDADES EN DOCUMENTACIÓN Y AUTOMATIZACIÓN
+
+1. Datos del Proyecto
+Nombre del Investigador: Josue Luengo
+
+Alias: Fix3r
+
+Fecha: 16.05.2025
+
+Hora de Inicio: 20:50
+
+Hora de Finalización: 22:07
+
+2. Objetivo del Proyecto
+Generar un informe que valide la correcta documentación de un script de optimización para Windows, demostrando habilidades técnicas en:
+
+Gestión de políticas de ejecución en PowerShell.
+
+Búsqueda y ejecución de scripts.
+
+Documentación de procesos técnicos.
+
+3. Introducción
+Este informe aborda una problemática común en administración de sistemas: la ejecución segura de scripts de optimización en PowerShell. Windows, al ser el sistema operativo más utilizado globalmente, requiere configuraciones específicas para garantizar tanto el rendimiento como la seguridad.
+
+Metodología:
+
+Investigación basada en fuentes confiables (DeepSeek AI, OpenAI).
+
+Pruebas prácticas con scripts locales.
+
+4. Desarrollo Técnico
+Acción Clave 1: Configuración de Políticas de Ejecución
+Problema: PowerShell bloquea la ejecución de scripts por defecto (Restricted).
+Solución:
+
+Abrir PowerShell como administrador desde CMD:
+
+cmd
+powershell -Command "Start-Process powershell -Verb RunAs"
+Cambiar la política a RemoteSigned (permite scripts locales):
+
+powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Justificación:
+
+RemoteSigned equilibra seguridad y flexibilidad:
+
+✅ Ejecuta scripts locales sin restricciones.
+
+❌ Bloquea scripts descargados sin firma digital.
+
+Acción Clave 2: Ejecución del Script
+Ubicación del archivo:
+
+Asegurar que el script tenga extensión .ps1 (no .txt).
+
+Navegar a la ruta:
+
+powershell
+cd "C:\Users\PC\Desktop\carpeta temporal"
+Ejecución:
+
+powershell
+.\ejecutableHerramienta.ps1
+5. Resultados
+Hora de éxito: 22:07.
+
+Logro: Script ejecutado correctamente tras validar políticas y rutas.
+
+6. Conclusiones
+La documentación clara y los comandos precisos son pilares en TI.
+
+PowerShell requiere configuraciones específicas para scripts locales.
+
+Este proyecto certifica habilidades en:
+
+Automatización.
+
+Solución de errores técnicos.
+
+Redacción de informes profesionales.
+
+© 2025 - Josue Luengo (Fix3r)
+Documentación técnica válida para entornos empresariales y educativos.
+
+¿Necesitas ajustar algún detalle? 😊
+
